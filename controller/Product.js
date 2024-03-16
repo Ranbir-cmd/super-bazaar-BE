@@ -14,8 +14,12 @@ exports.createProduct = async(req, res) => {
 
 // get products: with filter and sort 
 exports.fetchAllProducts = async (req, res) =>{
-    let query = Product.find({});   // here just requesting, not executing. thats why no await
-    let totalProductsQuery = Product.find({}) // see to get totalDocs (i.e setting to header) we need to create another query. cant get totalDocs on same query. thats why creating this query 
+    let condition = {}
+    if(!req.query.admin){
+        condition.hidden = {$ne: true};
+    }
+    let query = Product.find(condition);   // here just requesting, not executing. thats why no await
+    let totalProductsQuery = Product.find(condition) // see to get totalDocs (i.e setting to header) we need to create another query. cant get totalDocs on same query. thats why creating this query 
 
     // filter = {"category":["smartphone","laptops"]}
     // sort = {_sort:"price",_order="desc"}
