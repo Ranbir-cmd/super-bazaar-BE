@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.f23ca39d.css",
-    "main.js": "/static/js/main.85f9e886.js",
+    "main.css": "/static/css/main.cc0f38a3.css",
+    "main.js": "/static/js/main.f718027b.js",
     "static/js/787.eb329a44.chunk.js": "/static/js/787.eb329a44.chunk.js",
+    "static/media/emptyCartGif.gif": "/static/media/emptyCartGif.887744674965427141dd.gif",
     "static/media/103160_man_512x512.png": "/static/media/103160_man_512x512.0bd3359bb28a7e567c31.png",
     "static/media/seven-star-super-bazaar-thiruvananthapuram-pwxabuiip6.avif": "/static/media/seven-star-super-bazaar-thiruvananthapuram-pwxabuiip6.f9e3cbdc9a84d4cfa6fb.avif",
     "index.html": "/index.html",
-    "main.f23ca39d.css.map": "/static/css/main.f23ca39d.css.map",
-    "main.85f9e886.js.map": "/static/js/main.85f9e886.js.map",
+    "main.cc0f38a3.css.map": "/static/css/main.cc0f38a3.css.map",
+    "main.f718027b.js.map": "/static/js/main.f718027b.js.map",
     "787.eb329a44.chunk.js.map": "/static/js/787.eb329a44.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f23ca39d.css",
-    "static/js/main.85f9e886.js"
+    "static/css/main.cc0f38a3.css",
+    "static/js/main.f718027b.js"
   ]
 }
